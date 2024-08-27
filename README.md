@@ -81,6 +81,12 @@ Git is a distributed version control system (VCS) that tracks changes in source 
 
 f. What does "git diff" do?
 
+The git diff command in Git is used to show the differences between various states of your files or between commits. It helps you see what has changed in your code, either before committing changes, between different commits, or between branches
+
 g. What is "main" branch?
 
+The "main" branch on GitHub is the default and primary branch in a Git repository where the final, production-ready code typically resides. It is the branch where all changes are eventually merged after they have been reviewed and tested in other branches.
+
 h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the main branch?
+
+If you’re working on a small, personal project where the main branch is not tied to any CI/CD pipelines or production releases, you might push directly to main but in general, avoid pushing changes directly to the main branch especially if there is a collaborative project work going on. Instead, use a branch and pull request workflow to ensure your main branch remains stable, tested, and ready for production. This approach promotes better collaboration, code quality, and project management.
